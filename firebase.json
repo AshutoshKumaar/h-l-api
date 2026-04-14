@@ -1,0 +1,36 @@
+{
+  "functions": {
+    "source": ".",
+    "runtime": "nodejs20",
+    "ignore": [
+      ".git",
+      ".vscode",
+      "firebase-debug.log",
+      "firebase-debug.*",
+      "hosting",
+      "node_modules",
+      ".env",
+      ".env.*",
+      "*-service-account.json",
+      "service-account.json"
+    ]
+  },
+  "hosting": {
+    "public": "hosting",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "function": "api"
+      }
+    ]
+  },
+  "firestore": {
+    "rules": "firestore.rules",
+    "indexes": "firestore.indexes.json"
+  }
+}

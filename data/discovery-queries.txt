@@ -1,0 +1,33 @@
+# Broad discovery queries for building a large channel pool.
+# Add more lines to widen the dataset.
+
+music
+gaming
+technology
+news
+sports
+education
+comedy
+fashion
+travel
+food
+fitness
+finance
+movies
+beauty
+podcast
+kids
+science
+cars
+cricket
+anime
+reviews
+vlog
+business
+tutorial
+live
+hindi
+english
+india
+usa
+football
